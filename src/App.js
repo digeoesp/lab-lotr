@@ -10,7 +10,9 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        <Movie />
+        <Movie title="The fellowship of the ring" hours="2" minutes="58"/>
+        <Movie title="The two tours" hours="2" minutes="59"/>
+        <Movie title="The return of the king" hours="3" minutes="21"/>
       </header>
 
     </div>

@@ -1,11 +1,11 @@
 import React from 'react'
 
 
-const Movie = () => {
+const Movie = (props) => {
     return (
         <div>
-           <h1>The Lord of the Rings: A Trilogy</h1>
-           <p>4h 37min</p>
+           <h1>{props.title}</h1>
+           <p>{props.hours}hrs {props.minutes}min</p>
         </div>
     )
 }
